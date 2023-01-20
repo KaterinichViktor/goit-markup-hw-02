@@ -1,5 +1,40 @@
-.email-head{
+/* .all-box{
+    margin: auto;
+} */
 
+.web{
+    margin: 24px 0 24px 156px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.studio{
+    margin: 24px 0 24px 200px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+.header{
+    width: 1440px;
+}
+
+.navigation{
+display: flex;
+flex-direction: row;
 }
 
 .button-background{
@@ -9,6 +44,7 @@
 }
 
 .main-banner{
-    display: flex;
-    margin
+    color: #FFFFFF;
+    width: 494px;
+    margin: 188px 473px 292px 473px;
 }

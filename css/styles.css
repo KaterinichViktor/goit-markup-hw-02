@@ -2,6 +2,11 @@
     margin: auto;
 } */
 
+.body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
 .web{
     margin: 24px 0 24px 156px;
     font-family: 'Raleway';
@@ -29,16 +34,11 @@
     color: #2E2F42;
 }
 .header{
-    background-color: #E7E9FC;
+    background-color: #FFFFFF;
     width: 1440px;
     display: flex;
     flex-direction: row;
-}
-
-.navigation-list{
-display: flex;
-flex-direction: row;
-color: #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 /* navigation */
@@ -54,6 +54,36 @@ color: #E7E9FC;
     color: #2E2F42;
 }
 
+.list-item-1{
+margin: 24px 0 24px 76px;
+}
+.list-item-2,
+.list-item-3{
+margin: 24px 0 24px 40px;
+}
+
+
+.email-head{
+    margin: 24px 0 24px 332px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.phone-number{
+    margin: 24px 0 24px 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 .button-background{
     margin: 0;
     padding: 188px 0 0 0;
@@ -65,34 +95,34 @@ color: #E7E9FC;
 }
 
 .button-order{
-    margin: 48px 636px 188px 636px;
+    width: 169px;
+    height: 56px;
+    margin: 0 636px 188px 636px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.button-text{
+    margin: 0 32px 16px 32px;
+    padding-bottom: 16px;
+    width: 105px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
+    color: #FFFFFF; 
 }
 
 .main-banner{
-    width: 494px;
     margin: 0 473px 0 473px;
+    padding-bottom: 48px ;
+    width: 494px;
+    height: 120px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -100,5 +130,6 @@ color: #E7E9FC;
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
+
     color: #FFFFFF;
 }

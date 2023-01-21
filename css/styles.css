@@ -16,7 +16,7 @@
     color: #4D5AE5;
 }
 .studio{
-    margin: 24px 0 24px 200px;
+    margin: 24px 0 24px 0;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -29,22 +29,76 @@
     color: #2E2F42;
 }
 .header{
+    background-color: #E7E9FC;
     width: 1440px;
+    display: flex;
+    flex-direction: row;
 }
 
-.navigation{
+.navigation-list{
 display: flex;
 flex-direction: row;
+color: #E7E9FC;
+}
+
+/* navigation */
+.list-item-1,
+.list-item-2,
+.list-item-3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .button-background{
+    margin: 0;
+    padding: 188px 0 0 0;
     background-color: #2E2F42;
     width: 1440px;
     height: 600px;
+    left: 0px;
+    top: 72px;
+}
+
+.button-order{
+    margin: 48px 636px 188px 636px;
+    background: #4D5AE5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
 }
 
 .main-banner{
-    color: #FFFFFF;
     width: 494px;
-    margin: 188px 473px 292px 473px;
+    margin: 0 473px 0 473px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }

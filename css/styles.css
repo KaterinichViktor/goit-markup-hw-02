@@ -147,6 +147,8 @@ margin: 24px 0 24px 40px;
     color: #FFFFFF;
 }
 
+/* features */
+
 .features-list,
 .photos-list,
 .team-list,
@@ -157,8 +159,69 @@ margin: 24px 0 24px 40px;
 
 .features-list{
     width: 1128px;
-    margin: 120px 156px 0 156px;
+    margin: 120px 156px 120px 156px;
+    gap: 8px;
 }
+
+.header-features{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.features-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* What are we doing */
+.our-functional{
+    text-align: center;
+    padding: 0;
+    margin: 120px 156px 120px 156px ;
+}
+
+.header-our-tasks{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.photos-list{
+    gap: 40px;
+    padding: 0;
+}
+.list-item-photo{
+    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), ;
+    background-blend-mode: soft-light, normal;
+    border: 1px solid #E7E9FC;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+    width: 360px;
+    height: 300px;
+    }
+
+
 
 /* Our team */
 

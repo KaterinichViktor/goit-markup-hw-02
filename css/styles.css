@@ -7,12 +7,29 @@
     font-family: 'Raleway', sans-serif;  
 }
 
-.all-box{
+.header,
+.main,
+.footer{
     width: 1440px;
 }
 
-.web{
+.webstudio{
+    display: flex;
+    flex-direction: row;
     margin: 24px 0 24px 156px;
+}
+.header-navigation{
+    display: flex;
+    flex-direction: row;
+}
+.header-address{
+    margin: 24px 0 24px 332px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.web{
+    /* margin: 24px 0 24px 156px; */
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -25,7 +42,7 @@
     color: #4D5AE5;
 }
 .studio{
-    margin: 24px 0 24px 0;
+    /* margin: 24px 0 24px 0; */
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -75,7 +92,6 @@ margin: 24px 0 24px 40px;
 
 
 .email-head{
-    margin: 24px 0 24px 332px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -85,7 +101,6 @@ margin: 24px 0 24px 40px;
     color: #434455;
 }
 .phone-number{
-    margin: 24px 0 24px 40px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -115,8 +130,21 @@ margin: 24px 0 24px 40px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    padding: 16px 0 16px 27px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
-.button-text{
+/* .button-text{
     margin: 16px 0 16px 24px;
     padding-bottom: 16px;
     width: 108px;
@@ -131,7 +159,7 @@ margin: 24px 0 24px 40px;
     flex: none;
     order: 0;
     flex-grow: 0;
-}
+} */
 
 .main-banner{
     margin: 0 472px 0 472px;
@@ -160,9 +188,13 @@ margin: 24px 0 24px 40px;
 }
 
 .features-list{
+    padding: 0;
     width: 1128px;
     margin: 120px 156px 120px 156px;
-    gap: 8px;
+    gap: 24px;
+}
+.features-list-item{
+    width: 264px;
 }
 
 .header-features{
@@ -175,6 +207,7 @@ margin: 24px 0 24px 40px;
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin: 0;
 }
 
 .features-text{
@@ -187,6 +220,9 @@ margin: 24px 0 24px 40px;
     flex: none;
     order: 1;
     flex-grow: 0;
+    margin-top: 8px;
+    /* width: 264px; */
+    /* margin-top: 8px; */
 }
 
 /* What are we doing */
@@ -251,19 +287,6 @@ margin: 24px 0 24px 40px;
 
 }
 
-.photo-team-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
-}
-
 .team-list-header{
     font-style: normal;
     font-weight: 500;
@@ -275,6 +298,9 @@ margin: 24px 0 24px 40px;
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin: 0;
+    padding: 0;
+    /* padding-bottom: 8px */
 }
 
 .team-list-text{
@@ -288,7 +314,25 @@ margin: 24px 0 24px 40px;
     flex: none;
     order: 1;
     flex-grow: 0;
+    margin: 0;
+    padding: 0;
     }
+
+.team-list-item-1,
+.team-list-item-2,
+.team-list-item-3,
+.team-list-item-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
 
 .team-list-item-2,
 .team-list-item-3,
@@ -300,15 +344,20 @@ margin: 24px 0 24px 40px;
 
 .footer{
     padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #2E2F42;
-    height: 310px;
+    /* height: 310px; */
 }
 
-.footer-banner{
-    margin: 0 1020px 0 156px;
-}
 .footer-list{
     padding: 0;
+}
+
+.webstudio-2{
+    display: flex;
+    flex-direction: row;
+    margin: 0 1020px 0 156px;
+    padding-bottom: 16px ;
 }
 .web-2{
     font-style: normal;
@@ -334,6 +383,7 @@ margin: 24px 0 24px 40px;
 }
 
 .footer-text{
+    margin: 0 1020px 0 156px;
     width: 264px;
     font-style: normal;
     font-weight: 400;

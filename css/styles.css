@@ -3,8 +3,7 @@
 } */
 
 .body{
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Raleway', sans-serif;  
+    font-family: 'Roboto', sans-serif;  
 }
 
 .header,
@@ -92,7 +91,7 @@ margin: 24px 0 24px 40px;
 
 
 .email-head{
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -101,7 +100,7 @@ margin: 24px 0 24px 40px;
     color: #434455;
 }
 .phone-number{
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -166,7 +165,7 @@ margin: 24px 0 24px 40px;
     padding-bottom: 48px;
     width: 496px;
     height: 120px;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
     font-style: normal;
     font-weight: 700;
     font-size: 56px;

@@ -10,18 +10,17 @@
 
 .body {
   font-family: "Roboto","Raleway", sans-serif;
-  color: #434455;
 }
 
-.header,
+/* .header,
 .main,
 .main-2,
 .footer {
   width: 1440px;
-}
+} */
 
 .webstudio {
-  margin: 24px 0 24px 156px;
+  /* margin: 24px 0 24px 156px; */
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -47,7 +46,6 @@
 
 .header {
   background-color: var(--white);
-  width: 1440px;
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid var(--light);
@@ -57,7 +55,6 @@
   padding: 0;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   gap: 40px;
   margin: 24px 0 24px 76px;
 }
@@ -106,8 +103,8 @@ margin: 24px 0 24px 40px;
 }
 
 .button-background {
-  margin: 0;
-  padding: 188px 0 188px 0;
+  /* margin: 0;
+  padding: 188px 0 188px 0; */
   background-color: var(--dark);
   /* left: 0px; */
   /* top: 72px; */
@@ -115,9 +112,9 @@ margin: 24px 0 24px 40px;
 
 .button-order {
   cursor:pointer;
-  width: 168px;
+  /* width: 168px;
   height: 56px;
-  margin: 0 636px 0 636px;
+  margin: 0 636px 0 636px; */
   background: var(--primary-brand);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -137,9 +134,9 @@ margin: 24px 0 24px 40px;
 }
 
 .main-banner {
-  margin: 0 472px 0 472px;
+  /* margin: 0 472px 0 472px;
   padding: 0 0 48px 0;
-  width: 496px;
+  width: 496px; */
   font-size: 56px;
   line-height: 60px;
   text-align: center;
@@ -159,14 +156,14 @@ margin: 24px 0 24px 40px;
 }
 
 .features-list {
-  padding: 0;
+  /* padding: 0;
   width: 1128px;
-  margin: 120px 156px 120px 156px;
+  margin: 120px 156px 120px 156px; */
   gap: 24px;
 }
-.features-list-item {
+/* .features-list-item {
   width: 264px;
-}
+} */
 
 .header-features {
   font-weight: 500;
@@ -174,22 +171,21 @@ margin: 24px 0 24px 40px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
-  margin: 0;
+  /* margin: 0; */
 }
 
 .features-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin: 8px 0 0 0;
+  /* margin: 8px 0 0 0; */
 }
 
 /* What are we doing */
 .our-functional {
-  text-align: center;
-  padding: 0;
-  margin: 120px 156px 120px 156px;
+  justify-content: center;
+  /* padding: 0;
+  margin: 120px 156px 120px 156px; */
 }
 
 .header-our-tasks {
@@ -203,7 +199,7 @@ margin: 24px 0 24px 40px;
 
 .photos-list {
   gap: 40px;
-  padding: 0;
+  /* padding: 0; */
 }
 .list-item-photo {
   background: linear-gradient(
@@ -214,8 +210,8 @@ margin: 24px 0 24px 40px;
   background-blend-mode: soft-light, normal;
   border: 1px solid var(--light);
   box-sizing: border-box;
-  width: 360px;
-  height: 300px;
+  /* width: 360px;
+  height: 300px; */
 }
 
 /* Our team */
@@ -231,21 +227,21 @@ margin: 24px 0 24px 40px;
 }
 
 .team-background {
-  padding: 120px 0 0 0;
+  /* padding: 120px 0 0 0; */
   background-color: var(--accent);
   height: 732px;
 }
 
-.team-list {
+/* .team-list {
   padding: 0;
   margin: 72px 0 120px 156px;
-}
+} */
 
 .team-list-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
+  justify-content: center;
   letter-spacing: 0.02em;
   color: var(--dark);
   margin: 0;
@@ -256,8 +252,8 @@ margin: 24px 0 24px 40px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
 }
 
 .team-list-item-1,
@@ -276,21 +272,21 @@ margin: 24px 0 24px 40px;
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list-item-2,
+/* .team-list-item-2,
 .team-list-item-3,
 .team-list-item-4 {
   margin: 0 0 0 24px;
-}
+} */
 
 /* footer */
 
 .footer {
-  padding: 100px 0 100px 0;
+  /* padding: 100px 0 100px 0; */
   background-color: var(--dark);
 }
 
 .webstudio-2 {
-  margin: 0 0 0 156px;
+  /* margin: 0 0 0 156px; */
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -305,8 +301,8 @@ margin: 24px 0 24px 40px;
 }
 
 .footer-text {
-  margin: 16px 0 0 156px;
-  width: 264px;
+  /* margin: 16px 0 0 156px; */
+  /* width: 264px; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -318,16 +314,16 @@ margin: 24px 0 24px 40px;
 /* Page 2 */
 /* IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII */
 
-.projects-section{
+/* .projects-section{
   padding: 0;
   margin: 0;
-}
+} */
 
 .buttons-list {
   display: flex;
   flex-direction: row;
   gap: 24px;
-  padding: 96px 0 24px 0;
+  /* padding: 96px 0 24px 0; */
   justify-content: center;
 }
 .buttons-list button {
@@ -335,30 +331,23 @@ margin: 24px 0 24px 40px;
   background: var(--accent);
   border: 1px solid var(--light);
   border-radius: 4px;
-  flex: none;
-  flex-grow: 0;
-  height: 48px;
+  /* height: 48px; */
 
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
   justify-content: center;
   letter-spacing: 0.04em;
   color: var(--primary-brand);
-  flex: none;
-  flex-grow: 0;
 }
-.buttons-list button:hover {
+.buttons-list button:hover,
+.buttons-list button:focus{
   background: var(--pressed-state);
   color: var(--white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.button-1-page-2{
+/* .button-1-page-2{
   width: 69px;
 }
 .button-2-page-2{
@@ -372,7 +361,7 @@ margin: 24px 0 24px 40px;
 }
 .button-5-page-2{
   width: 126px;
-}
+} */
 
 .projects-list-1,
 .projects-list-2,
@@ -380,36 +369,29 @@ margin: 24px 0 24px 40px;
   display: flex;
   flex-direction: row;
   gap: 24px;
-  padding: 48px 156px 0 156px;
+  /* padding: 48px 156px 0 156px; */
 }
 
 .projects-list-1 h3,
 .projects-list-2 h3,
 .projects-list-3 h3{
-  margin: 0;
-  padding: 32px 0 0 16px;
-  font-style: normal;
+  /* margin: 0;
+  padding: 32px 0 0 16px; */
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
-  flex: none;
-  flex-grow: 0;
 }
 .projects-list-1 p,
 .projects-list-2 p,
 .projects-list-3 p{
-  margin: 0;
-  padding: 8px 0 0 16px;
-  font-style: normal;
-  font-weight: 400;
+  /* margin: 0;
+  padding: 8px 0 0 16px; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
-  flex: none;
-  flex-grow: 0;
 }
 
 .main-2{

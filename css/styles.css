@@ -135,8 +135,8 @@ margin: 24px 0 24px 40px;
 
 .main-banner {
   /* margin: 0 472px 0 472px;
-  padding: 0 0 48px 0;
-  width: 496px; */
+  padding: 0 0 48px 0; */
+  width: 496px;
   font-size: 56px;
   line-height: 60px;
   text-align: center;
@@ -302,7 +302,7 @@ margin: 24px 0 24px 40px;
 
 .footer-text {
   /* margin: 16px 0 0 156px; */
-  /* width: 264px; */
+  width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

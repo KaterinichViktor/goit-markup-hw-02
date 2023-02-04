@@ -183,7 +183,7 @@ margin: 24px 0 24px 40px;
 
 /* What are we doing */
 .our-functional {
-  justify-content: center;
+  /* justify-content: center; */
   /* padding: 0;
   margin: 120px 156px 120px 156px; */
 }
@@ -324,7 +324,7 @@ margin: 24px 0 24px 40px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  justify-content: center;
+  /* justify-content: center; */
   letter-spacing: 0.04em;
   color: var(--primary-brand);
 }
@@ -377,9 +377,9 @@ margin: 24px 0 24px 40px;
   color: var(--text);
 }
 
-.main-2{
+/* .main-2{
 padding: 0 0 120px 0;
-}
+} */
 /* .temp-test{
   flex-basis: 33.333333%;
   width: 360px;
